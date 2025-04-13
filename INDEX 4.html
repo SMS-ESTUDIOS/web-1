@@ -1,0 +1,134 @@
+<html>
+<head>
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS ESTUDIOS</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body {
+            background-color: #bac18c;
+            color: #034633;
+        }
+
+        .navbar {
+            background-color: #d18109;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 3px;
+            background: #000000;
+            transition: width 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #d8bb1a;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar a:hover::after {
+            width: 100%;
+        }
+
+        .contenido {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contenido h1 {
+            font-size: 50px;
+            color: #034633;
+            margin-bottom: 30px;
+        }
+
+        .contenido img {
+            width: 300px;
+            margin: 30px auto;
+            display: block;
+            animation: fadeInAnimation 1.5s ease forwards;
+        }
+
+        .contenido p {
+            font-size: 22px;
+            margin: 20px;
+            color: #365e2b;
+        }
+
+        .email {
+            font-size: 30px;
+            color: #000000;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        /* EFECTO FADE-IN */
+        @keyframes fadeInAnimation {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="INDEX 2.html">CARACTERISTICAS</a>
+        <a href="INDEX 3.html">PRECIO</a>
+        <a href="index  4.html">CENTRO DE ATENCIÓN</a>
+        <a href="https://www.instagram.com/car_webs?utm_source=qr">REDES SOCIALES</a>
+    </div>
+
+    <div class="contenido">
+        <h1>ATENCIÓN AL CLIENTE</h1>
+
+        <img src="LOGOTIPO_DE_PESTAÑA-removebg-preview.png" alt="Logotipo">
+
+        <p>En SMS ESTUDIOS, nos preocupamos por brindarte información clara y accesible.</p>
+        <p>Si tienes alguna duda sobre nuestros contenidos o deseas enviar una queja, estamos aquí para escucharte.</p>
+
+        <p> ⭐Resolver dudas sobre nuestras páginas informativas</p>
+        <p> ⭐Recibir sugerencias para mejorar nuestro contenido</p>
+        <p> ⭐Atender cualquier queja o comentario</p>
+
+        <p class="email">✉ Correo de atención y quejas:  sms.estudios.oficial@gmail.com</p>
+
+        <p>😉Tu opinión es importante para nosotros. Escríbenos y te responderemos lo antes posible.</p>
+    </div>
+
+</body>
+</html>

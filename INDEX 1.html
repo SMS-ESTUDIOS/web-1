@@ -1,0 +1,135 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS ESTUDIOS</title>
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body {
+            background-color: #8cd7c8;
+            color: #8c1414;
+        }
+
+        .navbar {
+            background-color: #d18109;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 3px;
+            background: #000000;
+            transition: width 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #d8bb1a;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar a:hover::after {
+            width: 100%;
+        }
+
+        .contenido {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contenido img {
+            margin-top: 20px;
+        }
+
+        .contenido p {
+            text-align: justify;
+            font-size: 20px;
+            margin: 20px;
+            color: #3b3b3b;
+        }
+
+        /* === EFECTO FADE-IN === */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInAnimation 1.5s ease forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index 2.html">INICIO</a>
+        <a href="INDEX 3.html">CARACTERISTICAS</a>
+        <a href="INDEX 4.html">PRECIO</a>
+        <a href="index 5.html">CENTRO DE ATENCIÓN</a>
+        <a href="https://www.instagram.com/car_webs?utm_source=qr">REDES SOCIALES</a>
+    </div>
+
+    <div class="contenido">
+        <h1 style="font-size: 60px;">¿ACASO CONOCES ESTE SUPER AUTO?</h1>
+        <h2 style="font-size: 40px; margin-top: 30px;">DEJAME TE CUENTO UN POCO</h2>
+
+        <img src="fbaa8e26a8fe3abfd5c34b4b76e7eae5.jpg" width="390" align="left" style="margin: 20px 20;" class="fade-in">
+
+        <p>
+            El Nissan GT-R R35 es un ícono del automovilismo japonés desde su lanzamiento en 2007.
+            Apodado "Godzilla" por su brutal desempeño, cuenta con un motor V6 biturbo de 3.8 litros,
+            capaz de generar más de 600 HP en sus versiones más potentes.
+            Gracias a su tracción integral y transmisión de doble embrague, acelera de 0 a 100 km/h
+            en menos de 3 segundos. A diferencia de otros superdeportivos, combina alto rendimiento
+            con usabilidad diaria. Un dato curioso es que su sistema de lanzamiento era tan agresivo
+            en las primeras versiones que podía dañar la transmisión si se usaba de manera incorrecta.
+        </p>
+
+        <br><br><br><br><br><br>
+
+        <img src="descarga (8).jpeg" width="378" align="right" style="margin: 20px 20;" class="fade-in">
+
+        <p>
+            El Nissan GT-R R35 es una máquina diseñada para el rendimiento y la aerodinámica.
+            Su carrocería, hecha de aluminio y fibra de carbono, lo hace ligero pero resistente.
+            Cada línea de su diseño no solo aporta agresividad, sino que también mejora el flujo
+            de aire para maximizar la estabilidad a altas velocidades. Su parrilla frontal no solo
+            le da una apariencia imponente, sino que también optimiza la refrigeración de su poderoso
+            motor V6 biturbo. En la parte trasera, sus icónicas luces redondas rinden homenaje a sus
+            predecesores, manteniendo la esencia del legendario GT-R. Un verdadero depredador en la pista
+            y en la calle.
+        </p>
+    </div>
+
+</body>
+</html>

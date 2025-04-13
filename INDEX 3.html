@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS ESTUDIOS</title>
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body {
+            background-color: #9ed8b1;
+            color: #3b3b3b;
+        }
+
+        .navbar {
+            background-color: #d18109;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 3px;
+            background: #000000;
+            transition: width 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #d8bb1a;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar a:hover::after {
+            width: 100%;
+        }
+
+        .contenido {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contenido h1 {
+            font-size: 50px;
+            color: #d18109;
+            margin-bottom: 30px;
+        }
+
+        .contenido img {
+            margin: 30px auto;
+            display: block;
+        }
+
+        .contenido p {
+            text-align: justify;
+            font-size: 20px;
+            margin: 20px;
+        }
+
+        /* EFECTO FADE-IN */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInAnimation 1.5s ease forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="INDEX 2.html">CARACTERISTICAS</a>
+        <a href="INDEX 3.html">PRECIO</a>
+        <a href="index  4.html">CENTRO DE ATENCIÓN</a>
+        <a href="https://www.instagram.com/car_webs?utm_source=qr">REDES SOCIALES</a>
+    </div>
+
+    <div class="contenido">
+        <h1>¿CUÁNTO CUESTA EL NISSAN GT-R R35?</h1>
+
+        <img src="PRECIO.jpg" width="392" class="fade-in">
+
+        <p>El Nissan GT-R R35 es un superdeportivo japonés que combina potencia y tecnología. Ofrece un precio competitivo dentro de su segmento. Desde su lanzamiento, su costo ha aumentado considerablemente, debido a las mejoras en rendimiento y exclusividad.</p>
+
+        <p>En México, el precio de un GT-R nuevo ronda los 2.5 millones de pesos. La versión más radical, el GT-R Nismo, supera los 4.5 millones. En el mercado de segunda mano, los precios varían entre 1.5 y 2 millones de pesos, dependiendo del año y el estado del vehículo.</p>
+
+        <p>A pesar de su alto costo, sigue siendo una opción atractiva para los amantes de la velocidad, ofreciendo un desempeño que compite con marcas de lujo como Porsche y Ferrari.</p>
+
+        <p>El GT-R R35 destaca por su ingeniería avanzada y capacidad de adaptación en diferentes entornos de manejo. Su tracción integral inteligente mejora el agarre, mientras que la transmisión de doble embrague permite una aceleración explosiva y un control excepcional en curvas.</p>
+
+        <p>Todo esto lo convierte en un referente dentro de su categoría. Otro factor que influye en su valor es la constante evolución del modelo. Nissan ha implementado mejoras en aerodinámica, suspensión y materiales más ligeros para optimizar su rendimiento.</p>
+
+        <p>La versión Nismo incluye fibra de carbono en varias partes de la carrocería, reduciendo el peso y mejorando la estabilidad a altas velocidades. Estas características han consolidado al GT-R R35 como un verdadero ícono del automovilismo, capaz de rivalizar con autos de mayor precio sin perder su esencia de potencia y precisión.</p>
+
+    </div>
+
+</body>
+
+</html>
